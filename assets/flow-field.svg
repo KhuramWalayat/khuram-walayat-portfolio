@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 720" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract flow field</title>
+  <desc id="desc">Illustrative streamlines curve around a particle. This is artwork, not a simulation result.</desc>
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#879b91" stroke-width=".5" opacity=".26"/></pattern>
+    <radialGradient id="orb" cx="35%" cy="25%" r="78%"><stop offset="0" stop-color="#edbb86"/><stop offset=".65" stop-color="#cc8050"/><stop offset="1" stop-color="#a65c3e"/></radialGradient>
+    <radialGradient id="halo"><stop offset="0" stop-color="#62988b" stop-opacity=".16"/><stop offset="1" stop-color="#62988b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6f998a"/><stop offset=".5" stop-color="#21695d"/><stop offset="1" stop-color="#82a697"/></linearGradient>
+  </defs>
+  <rect width="680" height="720" fill="url(#grid)"/>
+  <circle cx="350" cy="359" r="254" fill="url(#halo)"/>
+  <g fill="none" stroke="url(#ink)" stroke-width="1.3">
+    <path d="M-30 74C120 76 182 56 342 70S560 123 720 96"/>
+    <path d="M-30 101C115 104 180 84 341 96S557 145 720 122"/>
+    <path d="M-30 128C115 133 180 111 340 120S553 163 720 148"/>
+    <path d="M-30 155C115 164 179 134 337 141S548 180 720 174"/>
+    <path d="M-30 182C115 193 176 153 334 161S543 199 720 200"/>
+    <path d="M-30 209C112 224 177 166 332 178S542 222 720 226"/>
+    <path d="M-30 236C110 252 169 182 330 194S535 244 720 252"/>
+    <path d="M-30 263C110 280 158 199 327 210S532 266 720 278"/>
+    <path d="M-30 290C112 308 149 216 324 226S532 290 720 304"/>
+    <path d="M-30 317C119 334 137 234 322 242S534 316 720 330"/>
+    <path d="M-30 344C126 359 124 258 319 258S540 341 720 356"/>
+    <path d="M-30 371C127 390 142 465 321 468S544 377 720 382"/>
+    <path d="M-30 398C127 421 151 483 323 484S544 405 720 408"/>
+    <path d="M-30 425C124 448 164 499 326 500S543 434 720 434"/>
+    <path d="M-30 452C122 475 175 514 328 516S543 464 720 460"/>
+    <path d="M-30 479C120 500 184 530 331 532S544 491 720 486"/>
+    <path d="M-30 506C118 527 190 548 334 549S546 519 720 512"/>
+    <path d="M-30 533C117 553 193 566 336 568S547 547 720 538"/>
+    <path d="M-30 560C117 581 194 587 339 590S551 576 720 564"/>
+    <path d="M-30 587C117 608 194 612 341 614S554 605 720 590"/>
+    <path d="M-30 614C116 634 194 640 342 640S559 633 720 616"/>
+    <path d="M-30 641C116 661 194 669 344 668S561 661 720 642"/>
+  </g>
+  <g fill="none" stroke="#286958" opacity=".44">
+    <circle cx="330" cy="361" r="132" stroke-width=".8" stroke-dasharray="2 7"/>
+    <path d="M167 361H493M330 198V524" stroke-width=".65" stroke-dasharray="3 7"/>
+  </g>
+  <circle cx="330" cy="361" r="81" fill="url(#orb)"/>
+  <circle cx="312" cy="337" r="52" fill="none" stroke="#f6d4a8" stroke-width=".5" opacity=".5"/>
+  <circle cx="330" cy="361" r="3" fill="#fff2d8"/>
+  <path d="M330 361L430 288H527" stroke="#516c5f" stroke-width=".8" fill="none"/>
+  <circle cx="430" cy="288" r="2.5" fill="#516c5f"/>
+  <text x="446" y="278" fill="#52695f" font-family="Consolas,monospace" font-size="8" letter-spacing="1.7">PARTICLE / FLOW</text>
+  <g stroke="#81968b" stroke-width="1" opacity=".6"><path d="M37 38h12M43 32v12M631 38h12M637 32v12M37 682h12M43 676v12M631 682h12M637 676v12"/></g>
+</svg>
